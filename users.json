@@ -1,0 +1,14 @@
+{
+    "admin": {
+        "password": "admin",
+        "role": "admin"
+    },
+    "Ochibo": {
+        "password": "admin",
+        "role": "user"
+    },
+    "Annex": {
+        "password": "clean.py",
+        "role": "user"
+    }
+}

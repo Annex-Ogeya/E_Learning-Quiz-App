@@ -1,0 +1,58 @@
+{
+    "Geography": [],
+    "Science": [],
+    "Art": [
+        {
+            "question": "Which painting was not made by Vincent Van Gogh?",
+            "options": [
+                "A. Starry Night",
+                "B. The Ninth Wave",
+                "C. Caf\u00e9 Terrace at Night",
+                "D. Bedroom In Arles"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "Who sculpted the statue of David?",
+            "options": [
+                "A. Auguste Rodin",
+                "B. Michelangelo",
+                "C. Donatello",
+                "D. Gian Lorenzo Bernini"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "Who painted the Sistine Chapel?",
+            "options": [
+                "A. Raphael",
+                "B. Michelangelo",
+                "C. Leonardo da Vinci",
+                "D. Pablo Picasso"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "What is a fundamental element of the Gothic style of architecture?",
+            "options": [
+                "A. internal frescoes",
+                "B. coffered ceilings",
+                "C. pointed arch",
+                "D. fa\u00e7ades surmounted by a pediment "
+            ],
+            "answer": "C"
+        },
+        {
+            "question": "What were Marcel Duchamp's readymades?",
+            "options": [
+                "A. a group of identical steel boxes jutting from the wall ",
+                "B. a series focused on color and light as opposed to line and shape",
+                "C. paintings with a barely visible outlined square",
+                "D. utilitarian objects elevated to the status of art"
+            ],
+            "answer": "D"
+        }
+    ],
+    "Math": [],
+    "History": []
+}

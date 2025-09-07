@@ -1,0 +1,8 @@
+quiz_questions=[
+    {
+        "question": "How many countries do we have in Africa"
+        "choices":["option:A","option:B","option:C","option:D"]
+        "answer":"option:A"
+      
+    },
+]
