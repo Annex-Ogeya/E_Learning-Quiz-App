@@ -1,4 +1,25 @@
 {
-    "retakes_allowed": false,
-    "user_settings": {}
+    "retakes_allowed": true,
+    "user_settings": {
+        "Ochibo": {
+            "timer": 1,
+            "allowed_categories": [
+                "Science",
+                "Art",
+                "Math",
+                "History",
+                "Geography"
+            ]
+        },
+        "Annex": {
+            "timer": 1,
+            "allowed_categories": [
+                "Science",
+                "Math",
+                "History",
+                "Geography",
+                "Art"
+            ]
+        }
+    }
 }

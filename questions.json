@@ -1,6 +1,208 @@
 {
-    "Geography": [],
-    "Science": [],
+    "Geography": [
+        {
+            "question": "Which country has the abbreviation \"CH\"?",
+            "options": [
+                "A. China",
+                "B. Switzerland",
+                "C. Canada",
+                "D. No Country"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "Which of these is NOT a city in India?",
+            "options": [
+                "A. Islamabad",
+                "B. Hyderabad",
+                "C. Ghaziabad",
+                "D. Ahmedabad"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "What is the longest river in Europe?",
+            "options": [
+                "A. Thames",
+                "B. Rhine",
+                "C. Danube",
+                "D. Volga"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "Which Canadian province has Charlottetown as its capital?",
+            "options": [
+                "A. Prince Edward Island",
+                "B. Saskachewan",
+                "C. Northwest Terrirories",
+                "D. Ontario"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "What is the capital of Denmark?",
+            "options": [
+                "A. Odense",
+                "B. Aalborg",
+                "C. Copenhagen",
+                "D. Aarhus"
+            ],
+            "answer": "C"
+        },
+        {
+            "question": "What is the nickname for the US state Delaware?",
+            "options": [
+                "A. The Sixteenth State",
+                "B. The First State",
+                "C. The Second State",
+                "D. The Fiftieth State"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "How many time zones does China have?",
+            "options": [
+                "A. 2",
+                "B. 1",
+                "C. 4",
+                "D. 3"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "What event led to Liechenstein adding a crown to its flag?",
+            "options": [
+                "A. The 1936 Olympics",
+                "B. Signing of the 1862 Constitution of Liechtenstein",
+                "C. Charles VI's decree in 1719",
+                "D. Coronation of Prince Johann I Joseph in 1805"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "Which European city has the highest mileage of canals in the world?",
+            "options": [
+                "A. Amsterdam",
+                "B. Birmingham",
+                "C. Berlin",
+                "D. Venice"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "What is the name of the capital of Turkey?",
+            "options": [
+                "A. Ankara",
+                "B. Istanbul",
+                "C. Bursa",
+                "D. Izmir"
+            ],
+            "answer": "A"
+        }
+    ],
+    "Science": [
+        {
+            "question": "The asteroid belt is located between which two planets?",
+            "options": [
+                "A. Earth and Mars",
+                "B. Mars and Jupiter",
+                "C. Mercury and Venus",
+                "D. Jupiter and Saturn"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "Deionized water is water with which of the following removed?",
+            "options": [
+                "A. Iron",
+                "B. Oxygen",
+                "C. Hydrogen",
+                "D. Uncharged atoms"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "In Chemistry, how many isomers does Butanol (C4H9OH) have?",
+            "options": [
+                "A. 4",
+                "B. 5",
+                "C. 6",
+                "D. 3"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "Which of these is a type of stretch/deep tendon reflex?",
+            "options": [
+                "A. Ankle jerk reflex",
+                "B. Pupillary light reflex",
+                "C. Scratch reflex",
+                "D. Gag reflex"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "How many objects are equivalent to one mole?",
+            "options": [
+                "A. 6.002 x 10^23",
+                "B. 6.002 x 10^22",
+                "C. 6.022 x 10^22",
+                "D. 6.022 x 10^23"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "What is the Linnean name of the domestic apple tree?",
+            "options": [
+                "A. Pomus domestica",
+                "B. Malus pumila",
+                "C. Appelus delectica",
+                "D. Malus americana"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "Burning which of these metals will produce a bright white flame?",
+            "options": [
+                "A. Lead",
+                "B. Magnesium",
+                "C. Lithium",
+                "D. Copper"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "What is the unit of electrical capacitance?",
+            "options": [
+                "A. Watt",
+                "B. Gauss",
+                "C. Henry",
+                "D. Farad"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "Which gas forms about 78% of the Earth\u2019s atmosphere?",
+            "options": [
+                "A. Carbon Dioxide",
+                "B. Oxygen",
+                "C. Nitrogen",
+                "D. Argon"
+            ],
+            "answer": "C"
+        },
+        {
+            "question": "Which psychological term refers to the stress of holding contrasting beliefs?",
+            "options": [
+                "A. Flip-Flop Syndrome",
+                "B. Cognitive Dissonance",
+                "C. Split-Brain",
+                "D. Blind Sight"
+            ],
+            "answer": "B"
+        }
+    ],
     "Art": [
         {
             "question": "Which painting was not made by Vincent Van Gogh?",
@@ -51,8 +253,300 @@
                 "D. utilitarian objects elevated to the status of art"
             ],
             "answer": "D"
+        },
+        {
+            "question": "How many paint and pastel versions of \"The Scream\" is Norwegian painter Edvard Munch believed to have produced?",
+            "options": [
+                "A. 1",
+                "B. 3",
+                "C. 4",
+                "D. 2"
+            ],
+            "answer": "C"
+        },
+        {
+            "question": "Who painted \"Swans Reflecting Elephants\", \"Sleep\", and \"The Persistence of Memory\"?",
+            "options": [
+                "A. Salvador Dali",
+                "B. Edgar Degas",
+                "C. Vincent van Gogh",
+                "D. Jackson Pollock"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "What nationality was the surrealist painter Salvador Dali?",
+            "options": [
+                "A. French",
+                "B. Spanish",
+                "C. Italian",
+                "D. Portuguese"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": [
+                "A.  Vincent van Gogh",
+                "B. Michelangelo",
+                "C. Leonardo da Vinci ",
+                "D. Pablo Picasso"
+            ],
+            "answer": "C"
+        },
+        {
+            "question": "What French sculptor designed the Statue of Liberty? ",
+            "options": [
+                "A. Auguste Rodin",
+                "B. Fr\u00e9d\u00e9ric Auguste Bartholdi",
+                "C. Henri Matisse",
+                "D. Jean-L\u00e9on G\u00e9r\u00f4me"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "Who designed the Chupa Chups logo?",
+            "options": [
+                "A. Vincent van Gogh",
+                "B. Pablo Picasso",
+                "C. Andy Warhol",
+                "D. Salvador Dali"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "Who painted The Starry Night?",
+            "options": [
+                "A. Vincent van Gogh",
+                "B. Leonardo da Vinci",
+                "C. Michelangelo",
+                "D. Pablo Picasso"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "Which artist painted \u201cThe Treachery of Images,\u201d a painting of a pipe with the description \"this is not a pipe\"?",
+            "options": [
+                "A. Magritte",
+                "B. Munch ",
+                "C. Modigliani",
+                "D. Matisse"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "Who painted the biblical fresco The Creation of Adam?",
+            "options": [
+                "A. Leonardo da Vinci",
+                "B. Michelangelo",
+                "C. Rembrandt",
+                "D. Caravaggio"
+            ],
+            "answer": "B"
         }
     ],
-    "Math": [],
-    "History": []
+    "Math": [
+        {
+            "question": "What is the fourth digit of \u03c0?",
+            "options": [
+                "A. 1",
+                "B. 2",
+                "C. 4",
+                "D. 3"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "What is the area of a circle with a diameter of 20 inches if \u03c0= 3.1415?",
+            "options": [
+                "A. 380.1215 Inches",
+                "B. 314.15 Inches",
+                "C. 1256.6 Inches",
+                "D. 3141.5 Inches"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following dice is not a platonic solid?",
+            "options": [
+                "A. 12-sided die",
+                "B. 10-sided die",
+                "C. 8-sided die",
+                "D. 20-sided die"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "What shape does sin(x) or cos(x) make on a graph?",
+            "options": [
+                "A. A Parabola",
+                "B. A Straight Line",
+                "C. Zig-Zags",
+                "D. Waves"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "What are the first 6 digits of the number \"Pi\"?",
+            "options": [
+                "A. 3.14169",
+                "B. 3.14159",
+                "C. 3.12423",
+                "D. 3.25812"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "Which mathematician refused the Fields Medal?",
+            "options": [
+                "A. Edward Witten",
+                "B. Andrew Wiles",
+                "C. Terence Tao",
+                "D. Grigori Perelman"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "What's the square root of 49?",
+            "options": [
+                "A. 12",
+                "B. 9",
+                "C. 7",
+                "D. 4"
+            ],
+            "answer": "C"
+        },
+        {
+            "question": "What is the plane curve proposed by Descartes to challenge Fermat's extremum-finding techniques called?",
+            "options": [
+                "A. Elliptic Paraboloid of Descartes",
+                "B. Folium of Descartes",
+                "C. Descarte's Helicoid",
+                "D. Cartesian Coordinates"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "At what temperature does temp in \u00b0C equal temp in \u00b0F?",
+            "options": [
+                "A. +100",
+                "B. +40",
+                "C. -40",
+                "D. 0"
+            ],
+            "answer": "C"
+        },
+        {
+            "question": "Integration is the reverse of what mathematical operation?",
+            "options": [
+                "A. Division",
+                "B. Multiplication",
+                "C. Standard Deviation",
+                "D. Derivation"
+            ],
+            "answer": "D"
+        }
+    ],
+    "History": [
+        {
+            "question": "How long did World War II last?",
+            "options": [
+                "A. 4 years",
+                "B. 5 years",
+                "C. 7 years",
+                "D. 6 years"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "Who was the first explorer to sail to North America?",
+            "options": [
+                "A. Leif Erikson",
+                "B. Christopher Columbus",
+                "C. Ferdinand Magellan",
+                "D. Amerigo Vespucci"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "Who was the first man to travel into outer space twice?",
+            "options": [
+                "A. Gus Grissom",
+                "B. Yuri Gagarin",
+                "C. Charles Conrad",
+                "D. Vladimir Komarov"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "Who was the main developer of the Suez Canal?",
+            "options": [
+                "A. Ferdinand de Lesseps",
+                "B. Louis-Eug\u00e8ne Cavaignac",
+                "C. John Milton",
+                "D. Johann Lukas von Hildebrandt"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "Who is the creator of the soft drink, Dr. Pepper?",
+            "options": [
+                "A. James Wellington",
+                "B. Boris Heviltik",
+                "C. Johnson Hinsin",
+                "D. Charles Alderton"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "Which Las Vegas casino was originally constructed and operated by mobster Bugsy Siegel?",
+            "options": [
+                "A. The Sands",
+                "B. The MGM Grand",
+                "C. The Sahara",
+                "D. The Flamingo"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "In what year was the M1911 pistol designed?",
+            "options": [
+                "A. 1917",
+                "B. 1899",
+                "C. 1907",
+                "D. 1911"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "On which aircraft carrier did the Doolitte Raid launch from on April 18, 1942 during World War II?",
+            "options": [
+                "A. USS Lexington",
+                "B. USS Hornet",
+                "C. USS Saratoga",
+                "D. USS Enterprise"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following Presidents of the United States was assassinated?",
+            "options": [
+                "A. William McKinley",
+                "B. Lyndon Johnson",
+                "C. Franklin Roosevelt",
+                "D. Chester Arthur"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "The creator of the Enigma Cypher and Machine was of what nationality?",
+            "options": [
+                "A. German",
+                "B. British",
+                "C. American",
+                "D. Polish"
+            ],
+            "answer": "A"
+        }
+    ]
 }
