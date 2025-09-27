@@ -14,6 +14,7 @@ Welcome to my capstone.I designed an E-learning quiz app that allows multiple us
 - The users log in using the usernames and password provided.
 - The users select the category
 - The users attempt the quiz
+- Users are able to register on their own
   
 - **for admins**
 - Admins can add a student
