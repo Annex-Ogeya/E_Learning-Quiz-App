@@ -10,5 +10,17 @@
     "Annex": {
         "password": "clean.py",
         "role": "user"
+    },
+    "Kibet": {
+        "password": "admin",
+        "role": "user"
+    },
+    "Ogeya": {
+        "password": "admin",
+        "role": "user"
+    },
+    "Ian": {
+        "password": "admin",
+        "role": "user"
     }
 }

@@ -39,7 +39,7 @@ def save_json(filename,data):
 class QuizApp:
     def __init__(self, root):
         self.root=root
-        self.root.title("quizapplication")
+        self.root.title("Quiz Application")
         self.root.geometry("500x400")
         self.user=None
         self.show_login()
@@ -68,6 +68,18 @@ class QuizApp:
                 else:
                     self.show_user_panel()
             else:messagebox.showerror("Error","invalid username/password")
+        def register_user():
+            username=username_entry.get()
+            password=password_entry.get()
+            if not username or not password:
+                return messagebox.showerror("Error","Username and password cannot be empty.")
+            users=load_json(USERS_FILE)
+            if username in users:
+                return messagebox.showerror("Error","Username already exists.")
+            users[username]={"password":password,"role":"user"}
+            save_json(USERS_FILE,users)
+            messagebox.showinfo("Success","User registered. You can now login.")
+        tk.Button(self.root,text="Register",command=register_user).pack(pady=5)
         tk.Button(self.root,text="Login",command=attempt_login).pack(pady=10)
     #admin panel
     def show_admin_panel(self):
@@ -232,23 +244,16 @@ class QuizApp:
     def show_user_panel(self):
         self.clear_window()
         tk.Label(self.root, text=f"Welcome, {self.user['username']}", font=("Helvetica", 16)).pack(pady=10)
-
-        config = load_json(CONFIG_FILE)
-        settings = config["user_settings"].get(self.user["username"], {})
-        allowed = settings.get("allowed_categories", [])
-
-        if not allowed:
-            tk.Label(self.root, text="No categories assigned. Contact admin.").pack()
-            tk.Button(self.root, text="Logout", command=self.show_login).pack()
-            return
-
-        tk.Label(self.root, text="Select category:").pack()
-        category_var = tk.StringVar()
-        ttk.Combobox(self.root, textvariable=category_var, values=allowed).pack(pady=5)
-
+        questions=load_json(QUESTIONS_FILE)
+        all_categories=list(questions.keys())
+        tk.Label(self.root , text="select category:").pack()
+        
+        category_var=tk.StringVar()
+        ttk.Combobox(self.root, textvariable=category_var, values=all_categories).pack(pady=5)
         tk.Button(self.root, text="Start Quiz", command=lambda: self.start_quiz(category_var.get())).pack(pady=10)
+        tk.Button(self.root, text="Retake Quiz", command=lambda: self.start_quiz(category_var.get())).pack(pady=5)
         tk.Button(self.root, text="Logout", command=self.show_login).pack(pady=5)
-    def start_quiz(self,category):
+    def start_quiz(self,category,retake=True):
         questions = load_json(QUESTIONS_FILE)
         config = load_json(CONFIG_FILE)
         scores = load_json(SCORES_FILE)
@@ -256,9 +261,10 @@ class QuizApp:
 
         if not questions.get(category):
             return messagebox.showinfo("Empty", f"No questions in {category}")
-
-        if not config["retakes_allowed"] and user in scores:
-            return messagebox.showwarning("No Retakes", "You already took the quiz")
+        if not retake and user in scores and scores[user].get("category")==category:
+            return messagebox.showinfo("Info", "You have already taken this quiz. Retakes are not allowed.")
+        if retake and not config["retakes_allowed"]:
+            return messagebox.showinfo("Info", "Retakes are disabled by admin.")
 
         timer = config["user_settings"].get(user, {}).get("timer", 0)
         time_limit = timer * 60 if timer else None
@@ -267,10 +273,12 @@ class QuizApp:
 
         win = tk.Toplevel(self.root)
         win.title(f"{category} Quiz")
+        timer_label=tk.Label(win, text="",fg="red",)
+        timer_label.pack()
 
         question_index = [0]
         question_label = tk.Label(win, wraplength=400, font=("Arial", 12))
-        question_label.pack(pady=20)
+        question_label.pack(pady=20, )
 
         option_var = tk.StringVar()
         option_buttons = []
@@ -278,6 +286,15 @@ class QuizApp:
             btn = tk.Radiobutton(win, variable=option_var, font=("Arial", 10), anchor="w")
             btn.pack(anchor="w")
             option_buttons.append(btn)
+        def update_timer():
+            if time_limit:
+                remaining= int(time_limit -(time.time() - start_time))
+                if remaining <= 0:
+                    return end_quiz()
+                mins, secs = divmod(int(remaining), 60)
+                timer_label.config(text=f"Time Left: {mins:02}:{secs:02}")
+                
+                win.after(1000, update_timer)
 
         def show_question():
             if time_limit and time.time() - start_time >= time_limit:
@@ -311,6 +328,7 @@ class QuizApp:
 
         tk.Button(win, text="Submit", command=submit_answer).pack(pady=10)
         show_question()
+        update_timer()
 
 #runapp
 if __name__=="__main__":

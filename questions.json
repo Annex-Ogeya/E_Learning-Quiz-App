@@ -547,6 +547,56 @@
                 "D. Polish"
             ],
             "answer": "A"
+        },
+        {
+            "question": "Which infamous European traitor was known as \"the last person to enter Parliament with honest intentions\"?",
+            "options": [
+                "A. Everard Digby",
+                "B. Francis Tresham",
+                "C. Guy Fawkes",
+                "D. Robert Catesby"
+            ],
+            "answer": "C"
+        },
+        {
+            "question": "Who was the first prime minister of Canada?",
+            "options": [
+                "A. John Abbott",
+                "B. John Macdonald",
+                "C. Alexander Mackenzie",
+                "D. Robert Borden"
+            ],
+            "answer": "B"
+        },
+        {
+            "question": "The Battle of the Somme in World War I took place in which country?",
+            "options": [
+                "A. Austria",
+                "B. Germany",
+                "C. Italy",
+                "D. France"
+            ],
+            "answer": "D"
+        },
+        {
+            "question": "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+            "options": [
+                "A. September 25th",
+                "B. December 1st",
+                "C. March 25th",
+                "D. June 1st"
+            ],
+            "answer": "C"
+        },
+        {
+            "question": "In what year did the North American Video Game Crash occur?",
+            "options": [
+                "A. 1970",
+                "B. 1983",
+                "C. 1993",
+                "D. 1982"
+            ],
+            "answer": "B"
         }
     ]
 }

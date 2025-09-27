@@ -1,8 +1,26 @@
 {
     "Ochibo": {
+        "score": 3,
+        "total": 10,
+        "percentage": "30.0%",
+        "category": "Geography"
+    },
+    "Kibet": {
+        "score": 3,
+        "total": 10,
+        "percentage": "30.0%",
+        "category": "Math"
+    },
+    "Ogeya": {
+        "score": 4,
+        "total": 10,
+        "percentage": "40.0%",
+        "category": "Math"
+    },
+    "Annex": {
         "score": 2,
         "total": 10,
         "percentage": "20.0%",
-        "category": "History"
+        "category": "Math"
     }
 }

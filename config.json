@@ -2,23 +2,29 @@
     "retakes_allowed": true,
     "user_settings": {
         "Ochibo": {
-            "timer": 1,
+            "timer": 3,
             "allowed_categories": [
-                "Science",
                 "Art",
-                "Math",
-                "History",
-                "Geography"
+                "Math"
             ]
         },
         "Annex": {
             "timer": 1,
             "allowed_categories": [
-                "Science",
-                "Math",
-                "History",
-                "Geography",
-                "Art"
+                "Art",
+                "Math"
+            ]
+        },
+        "Kibet": {
+            "timer": 1,
+            "allowed_categories": [
+                "Math"
+            ]
+        },
+        "Ogeya": {
+            "timer": 1,
+            "allowed_categories": [
+                "Math"
             ]
         }
     }
